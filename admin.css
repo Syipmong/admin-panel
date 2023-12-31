@@ -1,0 +1,49 @@
+/* Reset default styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Color variables */
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+}
+
+
+/* Admin panel styles */
+
+.admin-panel {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
+}
+
+.admin-panel h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.admin-panel p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.admin-panel .button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.admin-panel .button:hover {
+    background-color: var(--info-color);
+}
